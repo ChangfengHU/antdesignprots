@@ -8,6 +8,7 @@ import Avatar from './AvatarDropdown';
 import HeaderSearch from '../HeaderSearch';
 import styles from './index.less';
 import NoticeIconView from './NoticeIconView';
+
 export interface GlobalHeaderRightProps extends Partial<ConnectProps>, Partial<ProSettings> {
   theme?: ProSettings['navTheme'] | 'realDark';
 }
